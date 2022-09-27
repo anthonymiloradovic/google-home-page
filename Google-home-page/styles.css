@@ -1,0 +1,78 @@
+body{
+    color:#3c4043;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    
+}
+.logo{
+    text-align:center;
+    
+    
+}
+
+
+.barre{
+    text-align: center;
+    border-radius: 50px;
+    width:40%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer*/
+#liens-footer1{
+    color:blue;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+nav li {
+    margin-right:15px;
+}
+nav a {
+    font-size:1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #70757a;
+    border-bottom: 3px solid #70757a;
+}
+
+#france{
+    background-color:#dadce0;
+    padding: 15px 30px;
+}
+
+#foot{
+    font-size: 14px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    min-width: 30%;
+    background-color: #dadce0;
+    padding: 0 20px;
+    
+}
+
