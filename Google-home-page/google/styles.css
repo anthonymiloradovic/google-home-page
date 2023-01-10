@@ -1,0 +1,224 @@
+                                                /*** BASE***/
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+header{
+    background: #202124;
+    margin: 0;
+    padding: 6px;
+}
+body{
+    background: #202124;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+    margin: 0;
+}
+
+                                               /*** NAVBAR ***/
+
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    padding: 6px; 
+}
+.nav-links{
+    display: flex;
+    float: right;
+    height: 48px;
+    align-items: center; 
+}
+.navbar .nav-links a{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 13px;
+    padding: 8px;
+}
+.link-left{
+    display: flex;
+    padding-right: 15px;
+}
+.link-right{
+    display: flex;
+}
+.navbar .nav-link .trip{
+    padding: 8px;
+}
+.navbar .nav-link .trip:hover{
+    padding: 38px;
+    color: red;
+}
+.navbar .nav-links .connexion {
+    display: flex;
+    align-items: center;
+    background: #8ab4f8;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #202124;
+}
+                                              /***LOGO & SEARCH-BAR***/
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+.img-google{
+    width: 375px;
+    height: 150px;
+    object-fit: contain;
+    object-position: center bottom;
+    vertical-align: bottom;
+    
+}
+.middle-bloc{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    width: 640px;
+    width: auto;
+    align-items: center;
+
+}
+.site-search{
+    display: flex;
+    height:44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 22px;
+    color: white;
+    box-shadow: none;
+    margin: 0 auto;
+    padding-top: 6px;
+    width:578px;
+}
+.site-search:hover{
+    display: flex;
+    height:44px;
+    background: #303134;
+    border: 1px solid #303134;
+    border-radius: 22px;
+    color: white;
+    box-shadow: none;
+    margin: 0 auto;
+    padding-top: 6px;
+    width:578px;
+}
+.btn-bloc{
+    height:70px;
+    padding-top: 18px;
+    display: block;
+    text-align: -webkit-center;
+
+}
+.btn{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover{
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.fantome{
+ flex-grow: 1;
+}
+
+.france{
+padding: 15px 30px;
+border-bottom: 1px solid #3c4043;
+font-size: 15px;
+color: #9aa0a6;
+background: #171717;
+}
+
+                                                       /***FOOTER***/
+
+
+footer{
+    background-color: #171717;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+ 
+  .centered-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    
+  }
+  
+  .centered-element a{
+    text-decoration: none;
+    color: #999da2;
+  }
+  .link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 9px 0;
+
+  }
+  
+  .link-list a {
+    flex: 0 0 auto;
+    padding: 15px;
+    text-decoration: none;
+    color: #999da2;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #999da2;
+  }
+  .centered-element a:hover{
+    text-decoration:underline;
+    color: #999da2;
+  }
+  .link-list a:hover {
+    flex: 0 0 auto;
+    padding: 15px;
+    color: #999da2;
+    text-decoration:underline;
+  }
